@@ -14,9 +14,10 @@ class B extends A {
 }
 
 public class Main {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         A objA = new B();
         System.out.println("Calling method from object of class A: " + objA.meth());
+        
         B objB = new B();
         System.out.println("Calling overridden method from object of class B: " + objB.meth());
     }
